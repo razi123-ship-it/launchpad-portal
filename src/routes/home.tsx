@@ -115,8 +115,8 @@ export default function HomePage() {
             </h1>
 
             <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-blue-100/85 md:text-lg">
-              The official portal of the Wedad Batch — a community of scholars,
-              creators, and leaders advancing tradition through modern excellence.
+              Welcome to the Wedad Batch portal — a proud community of scholars, creators, and leaders building legacy 
+              through knowledge and excellence.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
@@ -174,7 +174,7 @@ export default function HomePage() {
                 Academy Timeline
               </p>
               <h2 className="mt-4 text-4xl font-black tracking-tight text-slate-900 md:text-5xl">
-                Poem Kannada
+                English debate
               </h2>
               <p className="mt-5 text-base leading-relaxed text-slate-600">
                 The flagship Prime Union activity celebrating literary excellence
@@ -214,9 +214,9 @@ export default function HomePage() {
                 </div>
                 <ul className="mt-4 space-y-4">
                   {[
-                    { d: "09", m: "NOV", t: "Poem Kannada — Prime Union", c: "text-blue-600" },
-                    { d: "22", m: "NOV", t: "Inter-Wing Debate", c: "text-indigo-600" },
-                    { d: "05", m: "DEC", t: "Annual Merit Awards", c: "text-cyan-600" },
+                    { d: "27", m: "MAY", t: "English debate — Prime Union", c: "text-blue-600" },
+                    { d: "28", m: "MAY", t: "Arabic debate", c: "text-indigo-600" },
+                    { d: "29", m: "MAY", t: "Urdu debate", c: "text-cyan-600" },
                   ].map((e) => (
                     <li key={e.t} className="flex items-center gap-4 rounded-2xl bg-slate-50 p-4 transition hover:bg-blue-50">
                       <div className={`flex h-14 w-14 flex-col items-center justify-center rounded-xl bg-white shadow ${e.c}`}>
@@ -419,7 +419,7 @@ export default function HomePage() {
             <p>© 2026 Wedad Batch · Institutional Registry</p>
           </div>
           <Link to="/" className="font-semibold text-blue-700 hover:underline">
-            ← Back to Launch
+          
           </Link>
         </div>
       </footer>
