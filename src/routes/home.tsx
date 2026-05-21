@@ -31,10 +31,10 @@ const leaders = [
 ];
 
 const stats = [
-  { value: "120+", label: "Wedadians" },
-  { value: "04", label: "Wings" },
-  { value: "26", label: "Events" },
-  { value: "10", label: "Years Strong" },
+  { value: "41+", label: "Wedadians" },
+  { value: "06", label: "Wings" },
+  { value: "50", label: "Events" },
+  { value: "4", label: "Years Strong" },
 ];
 
 export default function HomePage() {
