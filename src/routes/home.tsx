@@ -14,8 +14,8 @@ const navItems = [
 
 const topPerformers = [
   { rank: 1, name: "Mohammad Mahrooz", points: 10, color: "from-amber-400 to-yellow-600" },
-  { rank: 2, name: "Razi Ahmed", points: 5, color: "from-slate-300 to-slate-500" },
-  { rank: 3, name: "Azeem Khan", points: 3, color: "from-orange-400 to-amber-700" },
+  { rank: 2, name: "Razi", points: 5, color: "from-slate-300 to-slate-500" },
+  { rank: 3, name: "AZEEM", points: 3, color: "from-orange-400 to-amber-700" },
 ];
 
 const wings = [
